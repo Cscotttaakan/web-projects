@@ -2,6 +2,13 @@ html {
 	font-size: 10px;
 	font-family: placeholder: Arial;
 	background-color: #00539F;
+	display: table;
+	margin: auto;
+	text-align:center;
+}
+
+html,body {
+height:50%;
 }
 
 h1 {
@@ -13,5 +20,28 @@ p,li{
 font-size: 16px;
 line-height: 2;
 letter-spacing: 1px;
+text-align center;
+}
 
+body {
+display: table-cell;
+vertical-align: middle;
+margin: 0 auto;
+background-color: #FF9500;
+border: 5px solid black;
+width: 800px;
+}
+
+h1{
+margin: 0;
+padding: 20px 0;
+color: #00539F;
+text-shadow: 3px 3px 1px black;
+
+}
+
+img.centered{
+display: block;
+margin-right: auto;
+margin-left: auto;
 }
